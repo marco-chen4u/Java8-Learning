@@ -6,6 +6,7 @@ import java.util.List;
 
 public class FilterApple {
     // fields
+    @FunctionalInterface
     public interface AppleFilter {
         boolean filter(Apple apple);
     }

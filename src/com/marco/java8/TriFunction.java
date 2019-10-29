@@ -1,4 +1,6 @@
 package com.marco.java8;
 
-public interface TriFunction {
+@FunctionalInterface
+public interface TriFunction<T, U, K, R> {
+    R apply(T t, U u, K k);
 }

@@ -5,10 +5,14 @@ public class Apple {
     private String color;
     private long weight;
 
-    // constructor
+    // constructors
     public Apple(String color, long weight) {
         this.color = color;
         this.weight = weight;
+    }
+
+    public Apple() {
+
     }
 
     public String getColor() {
